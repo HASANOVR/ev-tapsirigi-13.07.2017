@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = Number(prompt("en genc quldurun aldigi qizil miqdari"))
+        var m = Number(prompt("umumi qizil miqdari"))
+        var n = 1
+        var toplam = 0
+        if (a < m) {
+            while (a <= m) {
+                toplam = a + 2 * (a + 1);
+
+                if (toplam <= m) {
+                    n++;
+                }
+                a++;
+            }
+            console.log(n);
+
+
+
+
+
+
+        } else console.log("reqemleri duzgun daxil edin")
+    </script>
+</body>
+
+</html>
